@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6543B572244EAA1F28162CBE /* Pods_MoyaMvvmDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27AC7F83B01F9D5DCE32B97 /* Pods_MoyaMvvmDemo.framework */; };
 		8125487B24BEC75D000F5D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125487A24BEC75D000F5D2B /* AppDelegate.swift */; };
-		8125487D24BEC75D000F5D2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125487C24BEC75D000F5D2B /* SceneDelegate.swift */; };
 		8125487F24BEC75D000F5D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125487E24BEC75D000F5D2B /* ViewController.swift */; };
 		8125488224BEC75D000F5D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8125488024BEC75D000F5D2B /* Main.storyboard */; };
 		8125488424BEC75E000F5D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8125488324BEC75E000F5D2B /* Assets.xcassets */; };
 		8125488724BEC75E000F5D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8125488524BEC75E000F5D2B /* LaunchScreen.storyboard */; };
+		8125489024BEC7B2000F5D2B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125488E24BEC7B2000F5D2B /* NetworkService.swift */; };
+		8125489124BEC7B2000F5D2B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125488F24BEC7B2000F5D2B /* ViewModel.swift */; };
+		8125489324BEC93B000F5D2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489224BEC93B000F5D2B /* Constants.swift */; };
+		8125489524BECDC5000F5D2B /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489424BECDC5000F5D2B /* BaseClass.swift */; };
+		8125489D24BED0B4000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		8125489E24BED0B4000F5D2B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */; };
+		8125489F24BED0B4000F5D2B /* UTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489A24BED0B3000F5D2B /* UTI.swift */; };
+		812548A124BED202000F5D2B /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812548A024BED202000F5D2B /* Validations.swift */; };
+		812548A324BED3C6000F5D2B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812548A224BED3C6000F5D2B /* Extensions.swift */; };
+		81B8E27024C2B2BC00397AD1 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E26F24C2B2BC00397AD1 /* UserDetails.swift */; };
+		81B8E27224C2B2C600397AD1 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E27124C2B2C600397AD1 /* Designable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C6875E646D18603996F0DC1 /* Pods-MoyaMvvmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaMvvmDemo.release.xcconfig"; path = "Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8125487724BEC75D000F5D2B /* MoyaMvvmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaMvvmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8125487A24BEC75D000F5D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8125487C24BEC75D000F5D2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8125487E24BEC75D000F5D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8125488124BEC75D000F5D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8125488324BEC75E000F5D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8125488624BEC75E000F5D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8125488824BEC75E000F5D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8125488E24BEC7B2000F5D2B /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8125488F24BEC7B2000F5D2B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8125489224BEC93B000F5D2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8125489424BECDC5000F5D2B /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		8125489724BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		8125489A24BED0B3000F5D2B /* UTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTI.swift; sourceTree = "<group>"; };
+		8125489B24BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		812548A024BED202000F5D2B /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		812548A224BED3C6000F5D2B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81B8E26F24C2B2BC00397AD1 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		81B8E27124C2B2C600397AD1 /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		EDBA3387C4812CF568D293A1 /* Pods-MoyaMvvmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaMvvmDemo.debug.xcconfig"; path = "Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F27AC7F83B01F9D5DCE32B97 /* Pods_MoyaMvvmDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaMvvmDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6543B572244EAA1F28162CBE /* Pods_MoyaMvvmDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34BB4C8C83B0073EE4189829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDBA3387C4812CF568D293A1 /* Pods-MoyaMvvmDemo.debug.xcconfig */,
+				6C6875E646D18603996F0DC1 /* Pods-MoyaMvvmDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75367026CFD2016C371CD3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27AC7F83B01F9D5DCE32B97 /* Pods_MoyaMvvmDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8125486E24BEC75D000F5D2B = {
 			isa = PBXGroup;
 			children = (
+				81B8E26E24C2B29200397AD1 /* Utilties */,
+				8125489624BED0B3000F5D2B /* Third Party */,
 				8125487924BEC75D000F5D2B /* MoyaMvvmDemo */,
 				8125487824BEC75D000F5D2B /* Products */,
+				34BB4C8C83B0073EE4189829 /* Pods */,
+				75367026CFD2016C371CD3B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				8125487A24BEC75D000F5D2B /* AppDelegate.swift */,
-				8125487C24BEC75D000F5D2B /* SceneDelegate.swift */,
 				8125487E24BEC75D000F5D2B /* ViewController.swift */,
 				8125488024BEC75D000F5D2B /* Main.storyboard */,
 				8125488324BEC75E000F5D2B /* Assets.xcassets */,
@@ -67,6 +114,34 @@
 			path = MoyaMvvmDemo;
 			sourceTree = "<group>";
 		};
+		8125489624BED0B3000F5D2B /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				8125489724BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.h */,
+				8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */,
+				8125489A24BED0B3000F5D2B /* UTI.swift */,
+				8125489B24BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+			);
+			name = "Third Party";
+			path = "../../Indden backup/indden/Third Party";
+			sourceTree = "<group>";
+		};
+		81B8E26E24C2B29200397AD1 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				8125489224BEC93B000F5D2B /* Constants.swift */,
+				8125488E24BEC7B2000F5D2B /* NetworkService.swift */,
+				8125488F24BEC7B2000F5D2B /* ViewModel.swift */,
+				8125489424BECDC5000F5D2B /* BaseClass.swift */,
+				812548A024BED202000F5D2B /* Validations.swift */,
+				81B8E27124C2B2C600397AD1 /* Designable.swift */,
+				81B8E26F24C2B2BC00397AD1 /* UserDetails.swift */,
+				812548A224BED3C6000F5D2B /* Extensions.swift */,
+			);
+			path = Utilties;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8125488B24BEC75E000F5D2B /* Build configuration list for PBXNativeTarget "MoyaMvvmDemo" */;
 			buildPhases = (
+				D453FF9A2D81F7C9019D0EBA /* [CP] Check Pods Manifest.lock */,
 				8125487324BEC75D000F5D2B /* Sources */,
 				8125487424BEC75D000F5D2B /* Frameworks */,
 				8125487524BEC75D000F5D2B /* Resources */,
+				F37CD4268E2805FA5E997296 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +210,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D453FF9A2D81F7C9019D0EBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaMvvmDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F37CD4268E2805FA5E997296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8125487324BEC75D000F5D2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8125489324BEC93B000F5D2B /* Constants.swift in Sources */,
+				8125489E24BED0B4000F5D2B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				8125489F24BED0B4000F5D2B /* UTI.swift in Sources */,
+				8125489524BECDC5000F5D2B /* BaseClass.swift in Sources */,
+				812548A124BED202000F5D2B /* Validations.swift in Sources */,
+				81B8E27024C2B2BC00397AD1 /* UserDetails.swift in Sources */,
+				81B8E27224C2B2C600397AD1 /* Designable.swift in Sources */,
 				8125487F24BEC75D000F5D2B /* ViewController.swift in Sources */,
+				8125489D24BED0B4000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				8125489024BEC7B2000F5D2B /* NetworkService.swift in Sources */,
+				8125489124BEC7B2000F5D2B /* ViewModel.swift in Sources */,
+				812548A324BED3C6000F5D2B /* Extensions.swift in Sources */,
 				8125487B24BEC75D000F5D2B /* AppDelegate.swift in Sources */,
-				8125487D24BEC75D000F5D2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +411,12 @@
 		};
 		8125488C24BEC75E000F5D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBA3387C4812CF568D293A1 /* Pods-MoyaMvvmDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaMvvmDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +430,12 @@
 		};
 		8125488D24BEC75E000F5D2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6875E646D18603996F0DC1 /* Pods-MoyaMvvmDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaMvvmDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

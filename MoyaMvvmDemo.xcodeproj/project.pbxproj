@@ -17,13 +17,13 @@
 		8125489124BEC7B2000F5D2B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125488F24BEC7B2000F5D2B /* ViewModel.swift */; };
 		8125489324BEC93B000F5D2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489224BEC93B000F5D2B /* Constants.swift */; };
 		8125489524BECDC5000F5D2B /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489424BECDC5000F5D2B /* BaseClass.swift */; };
-		8125489D24BED0B4000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		8125489E24BED0B4000F5D2B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */; };
-		8125489F24BED0B4000F5D2B /* UTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125489A24BED0B3000F5D2B /* UTI.swift */; };
 		812548A124BED202000F5D2B /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812548A024BED202000F5D2B /* Validations.swift */; };
 		812548A324BED3C6000F5D2B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812548A224BED3C6000F5D2B /* Extensions.swift */; };
 		81B8E27024C2B2BC00397AD1 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E26F24C2B2BC00397AD1 /* UserDetails.swift */; };
 		81B8E27224C2B2C600397AD1 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E27124C2B2C600397AD1 /* Designable.swift */; };
+		81B8E27924C2ECA600397AD1 /* UTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E27624C2ECA600397AD1 /* UTI.swift */; };
+		81B8E27A24C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E27724C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.m */; };
+		81B8E27B24C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B8E27824C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,15 +39,16 @@
 		8125488F24BEC7B2000F5D2B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8125489224BEC93B000F5D2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8125489424BECDC5000F5D2B /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
-		8125489724BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		8125489A24BED0B3000F5D2B /* UTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTI.swift; sourceTree = "<group>"; };
-		8125489B24BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		812548A024BED202000F5D2B /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		812548A224BED3C6000F5D2B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		81B8E26F24C2B2BC00397AD1 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 		81B8E27124C2B2C600397AD1 /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		81B8E27324C2ECA500397AD1 /* MoyaMvvmDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoyaMvvmDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		81B8E27424C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = "../../../Projects/UpdatedAlamofire/Third Party/TPKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		81B8E27524C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "../../../Projects/UpdatedAlamofire/Third Party/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		81B8E27624C2ECA600397AD1 /* UTI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UTI.swift; path = "../../../Projects/UpdatedAlamofire/Third Party/UTI.swift"; sourceTree = "<group>"; };
+		81B8E27724C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = "../../../Projects/UpdatedAlamofire/Third Party/TPKeyboardAvoidingScrollView.m"; sourceTree = "<group>"; };
+		81B8E27824C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "../../../Projects/UpdatedAlamofire/Third Party/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		EDBA3387C4812CF568D293A1 /* Pods-MoyaMvvmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaMvvmDemo.debug.xcconfig"; path = "Target Support Files/Pods-MoyaMvvmDemo/Pods-MoyaMvvmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F27AC7F83B01F9D5DCE32B97 /* Pods_MoyaMvvmDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaMvvmDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,11 +118,12 @@
 		8125489624BED0B3000F5D2B /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				8125489724BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.h */,
-				8125489824BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
-				8125489924BED0B3000F5D2B /* TPKeyboardAvoidingScrollView.m */,
-				8125489A24BED0B3000F5D2B /* UTI.swift */,
-				8125489B24BED0B3000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				81B8E27424C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.h */,
+				81B8E27724C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.m */,
+				81B8E27524C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				81B8E27824C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				81B8E27624C2ECA600397AD1 /* UTI.swift */,
+				81B8E27324C2ECA500397AD1 /* MoyaMvvmDemo-Bridging-Header.h */,
 			);
 			name = "Third Party";
 			path = "../../Indden backup/indden/Third Party";
@@ -176,6 +178,7 @@
 				TargetAttributes = {
 					8125487624BEC75D000F5D2B = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -258,16 +261,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8125489324BEC93B000F5D2B /* Constants.swift in Sources */,
-				8125489E24BED0B4000F5D2B /* TPKeyboardAvoidingScrollView.m in Sources */,
-				8125489F24BED0B4000F5D2B /* UTI.swift in Sources */,
 				8125489524BECDC5000F5D2B /* BaseClass.swift in Sources */,
 				812548A124BED202000F5D2B /* Validations.swift in Sources */,
+				81B8E27B24C2ECA600397AD1 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				81B8E27024C2B2BC00397AD1 /* UserDetails.swift in Sources */,
+				81B8E27924C2ECA600397AD1 /* UTI.swift in Sources */,
 				81B8E27224C2B2C600397AD1 /* Designable.swift in Sources */,
 				8125487F24BEC75D000F5D2B /* ViewController.swift in Sources */,
-				8125489D24BED0B4000F5D2B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				8125489024BEC7B2000F5D2B /* NetworkService.swift in Sources */,
 				8125489124BEC7B2000F5D2B /* ViewModel.swift in Sources */,
+				81B8E27A24C2ECA600397AD1 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				812548A324BED3C6000F5D2B /* Extensions.swift in Sources */,
 				8125487B24BEC75D000F5D2B /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +417,7 @@
 			baseConfigurationReference = EDBA3387C4812CF568D293A1 /* Pods-MoyaMvvmDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaMvvmDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -423,6 +427,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = signature.MoyaMvvmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Indden backup/indden/Third Party/MoyaMvvmDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,6 +439,7 @@
 			baseConfigurationReference = 6C6875E646D18603996F0DC1 /* Pods-MoyaMvvmDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoyaMvvmDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -442,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = signature.MoyaMvvmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../Indden backup/indden/Third Party/MoyaMvvmDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
